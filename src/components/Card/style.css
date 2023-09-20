@@ -1,0 +1,33 @@
+.movie-card {
+    display: grid; 
+    border-radius: 8px;
+    max-width: 1000px; 
+    margin: 20px auto; 
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 3fr 2fr;
+}
+
+.movie-card img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 4px;
+    margin-right: 20px; 
+}
+
+.movie-card .text-content {
+    flex: 1; 
+}
+
+.movie-card h2 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.movie-card p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.movie-card .actors {
+    font-weight: bold;
+}
